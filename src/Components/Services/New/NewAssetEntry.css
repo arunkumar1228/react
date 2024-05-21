@@ -1,0 +1,54 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 22px;
+  padding: 12px;
+  margin: 0 auto;
+  /* background-color: aquamarine; */
+  max-width: 1200px;
+  margin-top: 1rem;
+  width: 100%;
+}
+
+.asset-form {
+  display: contents; /* Let the form fields be directly inside the grid container */
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.form-group input,
+.form-group select {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-group input[type="checkbox"] {
+  width: auto;
+  margin-top: 0.5rem;
+}
+
+button {
+  padding: 12px 82px 12px 45px;
+  margin: 44px 0;
+  border-radius: 99px;
+  background: linear-gradient(to left, #FF4242,#B81230);
+  color: white;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+  border-color: #FF6A59;
+  justify-content: center;
+}
+
+button:hover {
+  background-color: #0056b3;
+}

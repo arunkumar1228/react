@@ -1,0 +1,139 @@
+.grid {
+    display: grid;
+    height: 100vh; /* Full viewport height */
+    width: 100vw; /* Full viewport width */
+    margin: 0;
+    padding: 0;
+    place-items: center; /* Centers the child (grid-item) */
+}
+
+.grid-item {
+    display: flex;
+    justify-content: center; 
+    align-items: center; /* Center content vertically */
+    width: 100%; /* Full width of the grid container */
+    height: 100%; /* Full height of the grid container */
+    background-image: url('../../Assets/Group\ 2244.png'); /* URL to your background image */
+    background-size: cover; /* Cover the entire container */
+    background-position: center; /* Center the background image */
+}
+
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
+    padding: 20px;
+    background-color: white; /* White background for the card */
+    border-radius: 46px; /* Rounded corners for the card */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+    width: 38%;
+    height: 80vh;
+    text-align: center; /* Center the text inside the card */
+}
+
+.text-center {
+    margin-top: -2rem;
+}
+.custom-image {
+    width: 100%; /* Makes the image responsive within the container */
+    max-width: 50%;/* Maximum width of the image */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.person-icon {
+    position: absolute; 
+    top: 4.12px; 
+    right: -35px;
+    font-size: 0.9rem;
+    color: #ced4da;
+  }
+
+
+.lock-icon {
+    position: absolute; 
+    top: 4.12px; 
+    right: -35px;
+    font-size: 0.9rem;
+    color: #ced4da;
+  }
+  
+.form-label {
+    position: relative; /* Set position to relative to position the icon relative to this element */
+  }
+  
+
+  
+  button {
+    padding: 12px 43px 12px 45px;
+    margin: 44px 0;
+    border-radius: 99px;
+    background: linear-gradient(to left, #FF4242,#B81230);
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+    border-color: #FF6A59;
+  }
+
+
+  .login-form input[type="text"],
+  .login-form input[type="password"] {
+      width: 55%;
+      padding: 12px 111px 12px 45px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 99px;
+  }
+
+.login-form .position-relative {
+    position: relative;
+}
+
+
+
+.login-form .forgot-password-link {
+    display: block;
+    margin-top: 1rem;
+  text-align: center;
+    color: #007bff;
+    cursor: pointer;
+}
+
+.login-form .text-center {
+    text-align: center;
+}
+
+.login-form .error-message {
+
+    display: block; 
+    color: red;
+    font-size: 0.875rem;
+  
+    font-size: -41.125rem;
+    margin-top: -2.5rem 
+  
+}
+
+.toggle-password {
+    position: absolute;
+    top: 41%;
+    right: 4px;
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
+  
+  .toggle-password svg {
+    color: #666;
+    font-size: 1.2rem;
+  }
+  
+  .toggle-password svg:hover {
+    color: #333;
+  }
+  
+  
+  .mb-3{
+    padding: auto;
+  }
